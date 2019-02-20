@@ -1,0 +1,158 @@
+body {
+  color: #34495e;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  text-align: center;
+  background-color: whitesmoke;
+}
+
+h1 {
+  font-family: cursive;
+  font-size: 4.0em;
+  margin-top: 0;
+  color: whitesmoke;
+}
+
+h2 {
+  color: #3742fa;
+  font-size: 2.2em;
+  padding-bottom: 10px;
+}
+hr {
+  border: dotted  #fff200 6px;
+  border-bottom: none;
+  width: 5%;
+  margin: 100px auto 100px auto;
+}
+
+.subText {
+  font-size: 2.6em;
+  color: whitesmoke;
+  font-weight: normal;
+  line-height: 3em;
+}
+
+h3 {
+  color: rgba(41, 128, 185, 0.794);
+  text-align: center;
+}
+
+span {
+  text-decoration: underline;
+  color: whitesmoke;
+  background-color: rgba(47, 53, 66, 0.801);
+  padding: 10px;
+  transition: 0.3s ease-in;
+}
+a {
+  color:white;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover {
+  color:#fff200;
+
+}
+
+
+span:hover {
+  color:#4b4b4b;
+  background-color: #fff200;
+}
+
+.top-container {
+  height: 85vh;
+  background-image: linear-gradient(to right bottom,
+    rgba(47, 53, 66, 0.801),
+    rgba(55, 66, 250, 1.0)), url(../img/ImgApple.jpg);
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+  padding-top: 150px;
+  margin: 0;
+}
+
+/***********First Sections Ends**********/
+li {
+  list-style: none;
+}
+
+.smallerPic {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+  background-color: #f1f2f6;
+}
+
+.code-img, .betterBrand {
+  width: 25%;
+}
+
+.code-img {
+  float: left;
+  margin-left: 35px;
+}
+
+.betterBrand {
+  float: right;
+  margin-right: 35px;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+/********Button*********/
+.btn {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  display: block;
+  position: relative;
+  background-color: #3742fa;
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 20px 60px;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 6px #3742fa;
+  transition: 0.4s;
+  width: 150px;
+  height: 20px;
+}
+
+.btn:hover {
+  background-color: #5352ed;
+  box-shadow: 0 4px #3742fa;
+  top: 2px;
+  transform: rotate(1deg);
+}
+
+.btn:active {
+  box-shadow: none;
+  top: 6px;
+  transition: 0.2s;
+}
+
+.bottom-container {
+  margin-top: 20px;
+  background-color:#4b4b4b;
+  padding: 50px 0 20px;
+}
+.copyright {
+  color:whitesmoke;
+  font-size: 0.75em;
+  padding: 20px 0;
+}
